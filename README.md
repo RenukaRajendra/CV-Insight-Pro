@@ -29,8 +29,8 @@
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/resumematch-ai.git
-   cd resumematch-ai
+   git clone https://github.com/yourusername/CV-Insight-Pro.git
+   cd CV-Insight-Pro
    ```
 
 2. **Create a Virtual Environment**
