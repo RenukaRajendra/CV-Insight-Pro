@@ -35,25 +35,30 @@ submit2 = st.button("How Can I improve my skills")
 submit3 = st.button("Percentage Match")
 
 input_prompt1 = """
-    You are an experienced HR with tech experience in the field of Data Science, Full Stack Web Development,
-    Big Data Engineering, DevOps, Data Analysis. Your task is to review the provided resume against the job
-    description for these profiles. Please share your professional evaluation on whether the candidate's profile
-    aligns with the job description or not. Highlight the strengths and weaknesses of the applicant in relation to
-    the job description.
+    As an experienced HR professional with significant expertise in Data Science, Full Stack Web Development, Big Data Engineering, DevOps, and Data Analysis, your task is to conduct a thorough review of the provided resume in relation to the given job description. Evaluate the candidate’s qualifications, skills, and experiences to determine how well they align with the job requirements. Your analysis should cover the following aspects:
+
+Relevance of Experience: Assess the candidate’s previous work experience and how it fits with the responsibilities outlined in the job description.
+Technical Proficiency: Evaluate the technical skills and knowledge listed on the resume against the key skills required for the role.
+Strengths and Weaknesses: Highlight the candidate’s strengths that align with the job requirements and identify any areas where their qualifications may fall short.
+Overall Fit: Provide a summary of how well the candidate's profile matches the job description and suggest any areas for improvement or additional qualifications that could enhance their suitability for the role.
 """
 
 input_prompt2 = """
-    You are a Technical HR manager with expertise in Data Science, Full Stack Web Development,
-    Big Data Engineering, DevOps, Data Analysis. Your role is to scrutinize the resume in light of the job
-    description provided. Share your insights on the candidate's suitability for the role from an HR perspective,
-    and additionally, provide detailed advice on enhancing the skills for the shortlist.
+    In your role as a Technical HR Manager with expertise in Data Science, Full Stack Web Development, Big Data Engineering, DevOps, and Data Analysis, you are tasked with a detailed examination of the resume relative to the provided job description. Your review should include:
+
+Alignment with Job Requirements: Analyze how well the candidate’s skills, experiences, and qualifications match the key requirements of the job description.
+Suitability for the Role: Provide insights on the candidate’s potential fit for the role from an HR perspective, considering factors such as cultural fit, teamwork capabilities, and potential for growth.
+Skill Enhancement Recommendations: Offer detailed suggestions on how the candidate can improve their skills or experience to better align with the job requirements. This may include additional training, certifications, or practical experience.
+Evaluation Summary: Summarize your findings and offer a clear recommendation on the candidate's suitability for the position, including any reservations or concerns.
 """
 
 input_prompt3 = """
-    You are a skilled ATS (Application Tracking System) scanner with a deep understanding of Data Science, Full Stack Web Development,
-    Big Data Engineering, DevOps, Data Analysis, and ATS functionality. Your task is to evaluate the resume against the provided
-    job description. Give the percentage of match if the resume matches the job description. First, the output should come as a percentage,
-    then keywords missing, and lastly final thoughts.
+    As an expert in ATS (Applicant Tracking Systems) with deep knowledge in Data Science, Full Stack Web Development, Big Data Engineering, DevOps, and Data Analysis, your role is to evaluate the resume against the provided job description with a focus on ATS compatibility. Your assessment should include:
+
+Match Percentage: Calculate the percentage indicating how closely the resume matches the job description. This percentage reflects how well the resume aligns with the job requirements based on key criteria.
+Keyword Analysis: Identify any important keywords or phrases that are missing from the resume but are essential for the role. This helps in understanding how well the resume is optimized for ATS and the job description.
+Strengths and Gaps: Provide a detailed analysis of the strengths demonstrated in the resume and any significant gaps or areas where the resume does not fully meet the job requirements.
+Final Thoughts: Offer your overall evaluation and insights, including suggestions for improving the resume's alignment with the job description and enhancing its effectiveness in passing ATS screenings.
 """
 
 if submit1:
