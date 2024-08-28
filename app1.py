@@ -23,7 +23,7 @@ def get_gemini_response(input, pdf_content, prompt):
     response = model.generate_content([input, pdf_content, prompt])
     return response.text
 
-st.set_page_config(page_title="ATS Resume Expert")
+st.set_page_config(page_title="CV Insight Pro")
 st.header("ATS Tracking System")
 input_text = st.text_area("Job Description: ", key="input")
 uploaded_file = st.file_uploader("Upload your CV in PDF format", type=["pdf"])
